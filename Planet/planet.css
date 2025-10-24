@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 900px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ffd700;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+
+.intro {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.button-group a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #ff7b00, #ffcc00);
+  color: #111;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.4s ease;
+}
+
+.button-group a:hover {
+  background: linear-gradient(45deg, #ffcc00, #ff7b00);
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* Planet Sections */
+.planet {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  position: relative;
+}
+
+.planet::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.planet .content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+}
+
+.planet h2 {
+  color: #ffd700;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.planet p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #f5f5f5;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  color: #aaa;
+  font-size: 0.9rem;
+}
