@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
@@ -13,7 +12,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background-image: url('https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1600&q=80');
+  background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1600&q=80');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -33,7 +32,7 @@ body {
 
 h1 {
   font-size: 3rem;
-  color: #ffd700;
+  color: #ffb6c1;
   margin-bottom: 20px;
   letter-spacing: 3px;
 }
@@ -42,13 +41,14 @@ h1 {
   font-size: 1.1rem;
   line-height: 1.7;
   margin-bottom: 30px;
+  color: #ffe4e1;
 }
 
 .button-group a {
   display: inline-block;
   margin: 10px;
   padding: 10px 20px;
-  background: linear-gradient(45deg, #ff7b00, #ffcc00);
+  background: linear-gradient(45deg, #ff5f6d, #ffc371);
   color: #111;
   border-radius: 30px;
   text-decoration: none;
@@ -57,7 +57,7 @@ h1 {
 }
 
 .button-group a:hover {
-  background: linear-gradient(45deg, #ffcc00, #ff7b00);
+  background: linear-gradient(45deg, #ffc371, #ff5f6d);
   color: #fff;
   transform: scale(1.1);
 }
@@ -97,7 +97,7 @@ h1 {
 .planet p {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #f5f5f5;
+  color: #f8f8f8;
 }
 
 /* Footer */
