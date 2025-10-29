@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Intro</title>
+</head>
+<body>
+
+
+    <p id = "tea">Tea</p>
+    <p id="coffee">Coffee</p>
+    <p id="boost">Boost</p>
+    <button id="btn1">Tea</button>
+    <button id="btn2">Coffee</button>
+    <button id="btn3">Boost</button>
+    <p id="title"></p>
+
+
+    <script>
+
+        const tea = document.getElementById("tea")
+        const coffee = document.getElementById("coffee")
+        const boost = document.getElementById("boost")
+        const btn1 = document.getElementById("btn1")
+        const btn2 = document.getElementById("btn2")
+        const btn3 = document.getElementById("btn3");
+
+        btn1.addEventListener("click",()=>{
+            title.innerHTML = "<i>Ok We Will Make the Tea Soon</i>"
+            tea.innerHTML = "this is gowtham"
+        })
+        btn2.addEventListener("click",()=>{
+            title.innerHTML = "<i>Ok We Will Make the Coffee Soon</i>"
+        })
+        btn3.addEventListener("click",()=>{
+            title.innerHTML = "<i>Ok We Will Make the Boost Soon</i>"
+        })
+    </script>
+</body>
+</html>
