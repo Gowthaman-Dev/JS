@@ -1,0 +1,40 @@
+<script>
+    const messages = ["Hi there!","How are you?",
+  "Hope you're doing great!",
+  "It's nice to see you!",
+  "What are you up to?",
+  "Have a wonderful day!",
+  "Keep smiling!",
+  "You're awesome!",
+  "Take care!",
+  "Goodbye!"
+];
+
+/* let index = 0;
+
+const intervalId = setInterval(() => {
+  console.log(messages[index]);
+  index++;
+
+  // stop after 10 messages
+  if (index === messages.length) {
+    clearInterval(intervalId);
+  }
+}, 1000); // every 1 second
+ */
+
+
+ let index = 0
+
+ const interval = setInterval(()=>{
+        console.log(messages[index]);
+        index++
+        
+
+        if(index==messages.length){
+         clearInterval(interval)
+        }
+ },1000)
+
+
+</script>
